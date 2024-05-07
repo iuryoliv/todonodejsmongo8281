@@ -29,7 +29,7 @@ steps:
     env:
       AZURE_SUBSCRIPTION_ID: $(AZURE_SUBSCRIPTION_ID)
       AZURE_ENV_NAME: $(AZURE_ENV_NAME)
-      AZURE_LOCATION: $(AZURE_LOCATION)
+      AZURE_LOCATION: 'Southcentralus'
       
   - task: AzureCLI@2
     displayName: Deploy Application
